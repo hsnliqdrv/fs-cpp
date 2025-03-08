@@ -85,7 +85,7 @@ void process(FileSystem& fs,Path& current, Array<Array<char>>& cmd) {
         exit(0);
     } else if (cmd[0].equals("help",4)) {
         std::cout << "Commands:" << std::endl;
-        std::cout << "move <path> | move .. - 1. move into the directory 2. move into the parent directory" << std::endl;
+        std::cout << "move <path> | move .. | move - 1. move into the directory 2. move into the parent directory 3. move into the root dir" << std::endl;
         std::cout << "path - shows path of current directory" << std::endl;
         std::cout << "show - lists files in the current directory" << std::endl;
         std::cout << "remove <file_name> - removes the file in current directory" << std::endl;
